@@ -1,0 +1,25 @@
+{
+  "name": "decrease-webpack-bundle-sample",
+  "version": "1.0.0",
+  "description": "Decrease webpack bundle size with conditional dynamic imports",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/webpack/bin/webpack.js ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tugayilik/decrease-webpack-bundle-sample.git"
+  },
+  "author": "Tugay İlik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tugayilik/decrease-webpack-bundle-sample/issues"
+  },
+  "homepage": "https://github.com/tugayilik/decrease-webpack-bundle-sample#readme",
+  "dependencies": {
+    "webpack": "^5.10.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.2.0"
+  }
+}
