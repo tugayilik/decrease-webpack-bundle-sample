@@ -8,6 +8,6 @@ module.exports = {
         path: path.resolve(__dirname),
     },
     plugins: [
-        ...ModuleReplacement({ Module1: false, Module2: false })
+        ...ModuleReplacement({ Module1: false, Module2: true })
     ]
 };
